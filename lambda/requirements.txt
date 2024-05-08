@@ -1,0 +1,9 @@
+requests==2.20.0
+logging
+traceback
+bs4
+json
+sys
+psycopg2
+pandas
+lxml
