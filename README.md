@@ -12,7 +12,7 @@ Link: https://truyenmoi.info/
 
 ## System Architecture
 
-<img src="img/workflow.pjpeg" width="700">
+<img src="img/workflow.jpeg" width="700">
 
 I crawl data from the comic web like name, link, author, view,... and load data to `raw_zone` by using `AWS Lambda`. <br>
 I used `EventBridge` for cyclely calling `AWS Lambda` each day. <br>
