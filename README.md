@@ -23,4 +23,4 @@ All data is stored in `AWS S3 Storage`.
 
 ## Work Flow
 
-<img src="img/workflow.jpg" width="600">
+<img src="img/work_flow.jpg" width="600">
