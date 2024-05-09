@@ -1,0 +1,22 @@
+{
+    "GlueJobName": "kiettna_r2g_account",
+    "GlueScriptFileName": "kiettna/r2g_account.py",
+    "Type": "glueetl",
+    "GlueVersion": "4.0",
+    "PythonVersion": "3",
+    "MaxConcurrentRuns": 1,
+    "JobLanguage": "python",
+    "JobLibs": "data-engineering-basic/joblib.zip",
+    "JobPipLibs": "",
+    "ExtraJars": "",
+    "EnableBookmark": false,
+    "EnableGlueDataCatalog": true,
+    "NumberOfWorkers": 3,
+    "WorkerTypes": "G.1X",
+    "Connections": [
+      "data-subnet-b"
+    ],
+    "AdditionalConfig": [
+      "IcebergMain"
+    ]
+  }
